@@ -35,4 +35,44 @@
             android:layout_weight="1"
             android:text="Save" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/myFinances"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="My Finances"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myFinances">
+
+        <RadioButton
+            android:id="@+id/cdRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certificate of Deposits" />
+
+        <RadioButton
+            android:id="@+id/loansRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loans" />
+
+        <RadioButton
+            android:id="@+id/checkingsRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checkings Accounts" />
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

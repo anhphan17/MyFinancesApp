@@ -9,26 +9,26 @@ public class Checkings {
         checkingsId = -1;
     }
 
-    private int getCheckingsId() {
+    public int getCheckingsId() {
         return checkingsId;
     }
 
-    private void setCheckingsId(int i) {
+    public void setCheckingsId(int i) {
         checkingsId = i;
     }
 
-    private int getAccountNumber() {
+    public int getAccountNumber() {
         return accountNumber;
     }
-    private void setAccountNumber(int i) {
+    public void setAccountNumber(int i) {
         accountNumber = i;
     }
 
-    private double getCurrentBalance() {
+    public double getCurrentBalance() {
         return currentBalance;
     }
 
-    private void setCurrentBalance(double d) {
+    public void setCurrentBalance(double d) {
         currentBalance = d;
     }
 

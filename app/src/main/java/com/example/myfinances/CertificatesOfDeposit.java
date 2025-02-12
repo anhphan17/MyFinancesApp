@@ -11,43 +11,43 @@ public class CertificatesOfDeposit {
         cdId = -1;
     }
 
-    private int getCdId() {
+    public int getCdId() {
         return cdId;
     }
 
-    private void setCdId(int i) {
+    public void setCdId(int i) {
         cdId = i;
     }
 
-    private int getAccountNumber() {
+    public int getAccountNumber() {
         return accountNumber;
     }
 
-    private void setAccountNumber(int i) {
+    public void setAccountNumber(int i) {
         accountNumber = i;
     }
 
-    private double getInitialBalance() {
+    public double getInitialBalance() {
         return initialBalance;
     }
 
-    private void setInitialBalance(double d) {
+    public void setInitialBalance(double d) {
         initialBalance = d;
     }
 
-    private double getCurrentBalance() {
+    public double getCurrentBalance() {
         return currentBalance;
     }
 
-    private void setCurrentBalance(double d) {
+    public void setCurrentBalance(double d) {
         currentBalance = d;
     }
 
-    private float getInterestRate() {
+    public float getInterestRate() {
         return interestRate;
     }
 
-    private void setInterestRate(float f) {
+    public void setInterestRate(float f) {
         interestRate = f;
     }
 

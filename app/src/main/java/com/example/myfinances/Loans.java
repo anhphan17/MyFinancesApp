@@ -12,51 +12,51 @@ public class Loans {
         accountId = -1;
     }
 
-    private int getAccountId() {
+    public int getLoansId() {
         return accountId;
     }
 
-    private void setAccountId(int i) {
+    public void setLoansId(int i) {
         accountId = i;
     }
 
-    private int getAccountNumber() {
+    public int getAccountNumber() {
         return accountNumber;
     }
 
-    private void setAccountNumber(int i) {
+    public void setAccountNumber(int i) {
         accountNumber = i;
     }
 
-    private double getInitialBalance() {
+    public double getInitialBalance() {
         return initialBalance;
     }
 
-    private void setInitialBalance(double d) {
+    public void setInitialBalance(double d) {
         initialBalance = d;
     }
 
-    private double getCurrentBalance() {
+    public double getCurrentBalance() {
         return currentBalance;
     }
 
-    private void setCurrentBalance(double d) {
+    public void setCurrentBalance(double d) {
         currentBalance = d;
     }
 
-    private double getPaymentAmount() {
+    public double getPaymentAmount() {
         return paymentAmount;
     }
 
-    private void setPaymentAmount(double d) {
+    public void setPaymentAmount(double d) {
         paymentAmount = d;
     }
 
-    private float getInterestRate() {
+    public float getInterestRate() {
         return interestRate;
     }
 
-    private void setInterestRate(float f) {
+    public void setInterestRate(float f) {
         interestRate = f;
     }
 
